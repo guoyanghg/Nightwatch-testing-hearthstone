@@ -1,15 +1,15 @@
-17:24:29.372 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
-17:24:29.421 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
-2020-02-22 17:24:29.456:INFO::main: Logging initialized @220ms to org.seleniumhq.jetty9.util.log.StdErrLog
-17:24:29.632 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
-17:24:29.701 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
-17:24:29.906 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+21:12:39.021 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+21:12:39.066 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-02-23 21:12:39.099:INFO::main: Logging initialized @211ms to org.seleniumhq.jetty9.util.log.StdErrLog
+21:12:39.242 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+21:12:39.308 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+21:12:39.547 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "acceptSslCerts": true,
   "browserName": "safari",
   "javascriptEnabled": true,
-  "name": "Hello Google"
+  "name": "Hearth Tests"
 }
-17:24:29.907 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.safari.SafariDriverService)
-17:24:30.757 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-17:24:30.782 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 143C641B-8CD5-4EF0-A343-AA08FD9F3362 (org.openqa.selenium.safari.SafariDriverService)
-17:24:38.634 INFO [ActiveSessions$1.onStop] - Removing session 143C641B-8CD5-4EF0-A343-AA08FD9F3362 (org.openqa.selenium.safari.SafariDriverService)
+21:12:39.548 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.safari.SafariDriverService)
+21:12:40.368 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+21:12:40.390 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session A0970772-688B-41C0-945A-20950D934C26 (org.openqa.selenium.safari.SafariDriverService)
+21:13:02.274 INFO [ActiveSessions$1.onStop] - Removing session A0970772-688B-41C0-945A-20950D934C26 (org.openqa.selenium.safari.SafariDriverService)
