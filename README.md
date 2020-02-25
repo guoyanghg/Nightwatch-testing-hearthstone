@@ -32,7 +32,9 @@ https://nightwatchjs.org/gettingstarted/installation/
 
 Clone this repo 
 
-## Start the server
+## Start the test
+
+You can find my test script in the ./test/
 
 I have written the npm scripts for you, you can also check "package.json" to define your CLI command
 
