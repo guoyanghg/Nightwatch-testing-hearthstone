@@ -5,23 +5,14 @@
 
   <testsuite name="hearthTests"
     errors="0" failures="0" hostname="" id="" package="hearthTests" skipped="0"
-    tests="9" time="21.87" timestamp="">
+    tests="9" time="13.90" timestamp="">
   
-    <testcase name="Before" classname="hearthTests" time="0.1050" assertions="0">
+    <testcase name="Before" classname="hearthTests" time="0.1100" assertions="0">
     </testcase>
   
-    <testcase name="testForClass" classname="hearthTests" time="4.623" assertions="4">
+    <testcase name="testForClass" classname="hearthTests" time="2.501" assertions="4">
 
     
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="testForRarity" classname="hearthTests" time="3.892" assertions="3">
 
     
 
@@ -30,30 +21,47 @@
     
     </testcase>
   
-    <testcase name="testForSingleCard" classname="hearthTests" time="1.002" assertions="0">
-    </testcase>
-  
-    <testcase name="testForCardback" classname="hearthTests" time="3.668" assertions="1">
+    <testcase name="testForRarity" classname="hearthTests" time="3.166" assertions="3">
 
     
-    </testcase>
-  
-    <testcase name="testForSingleCardBack" classname="hearthTests" time="1.001" assertions="0">
-    </testcase>
-  
-    <testcase name="testForNavbar" classname="hearthTests" time="2.280" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="testForFilter" classname="hearthTests" time="5.290" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="After" classname="hearthTests" time="0.01100" assertions="0">
+    <testcase name="testForSingleCard" classname="hearthTests" time="0.5780" assertions="0">
+    </testcase>
+  
+    <testcase name="testForCardback" classname="hearthTests" time="1.651" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="testForSingleCardBack" classname="hearthTests" time="1.000" assertions="0">
+    </testcase>
+  
+    <testcase name="testForNavbar" classname="hearthTests" time="2.010" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="testForFilter" classname="hearthTests" time="2.861" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="After" classname="hearthTests" time="0.02600" assertions="0">
     </testcase>
   
 

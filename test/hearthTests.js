@@ -7,22 +7,19 @@ module.exports = {
         browser
             .url("http://localhost:3000")
             .assert.title("HearthStone")
-            .click("link text","PlayerClass")
+            .click("#nav-class")
             .assert.title("PlayerClass")
-            .moveToElement("css selector","#Rogue",0,0)
-            .pause(200)
-            .mouseButtonClick(0)
-            .assert.title("Rogue")
-            .url("http://localhost:3000/api/v1/class")
-            .moveToElement("css selector","#Warrior",0,0)
-            .mouseButtonClick(0)
+            .url("http://localhost:3000/api/v1/class/Warrior?pageNum=1")
             .assert.title("Warrior")
+            .url("http://localhost:3000/api/v1/class")
+            .url("http://localhost:3000/api/v1/class/Mage?pageNum=1")
+            .assert.title("Mage")
             .pause(200)
     },
     'testForRarity' : function (browser) {
         browser
             .url("http://localhost:3000")
-            .click("link text", "Rarity")
+            .click("css selector","#rarity")
             .assert.title("Rarity")
             .click("img[alt=Free]")
             .assert.title("Free")
@@ -34,15 +31,13 @@ module.exports = {
     },
     'testForSingleCard':function (browser) {
         browser
-            .moveToElement("css selector","#Wisp",0,0)
-            .pause(200)
-            .mouseButtonClick(0)
+            .click("img[alt=Wisp]")
             .pause(200)
     },
     'testForCardback' : function (browser) {
         browser
             .url("http://localhost:3000")
-            .click("link text", "Card Back")
+            .click("css selector","#cardback")
             .assert.title("CardBacks")
             .pause(200)
     },
@@ -56,18 +51,24 @@ module.exports = {
     'testForNavbar' : function (browser) {
         browser
             .url("http://localhost:3000")
-            .click("link text", "Contact")
+            .click("css selector", "#nav-contact")
             .assert.title("Contact")
+            .click("css selector", "#nav-class")
+            .assert.title("PlayerClass")
+            .click("css selector", "#nav-rarity")
+            .assert.title("Rarity")
+            .click("css selector", "#nav-cardback")
+            .assert.title("CardBacks")
+            .click("css selector", "#nav-home")
+            .assert.title("HearthStone")
             .pause(200)
     },
     'testForFilter' : function (browser) {
         browser
             .url("http://localhost:3000")
-            .click("link text","PlayerClass")
+            .click("css selector","#playerclass")
             .assert.title("PlayerClass")
-            .moveToElement("css selector","#Rogue",0,0)
-            .pause(200)
-            .mouseButtonClick(0)
+            .url("http://localhost:3000/api/v1/class/Rogue?pageNum=1")
             .assert.title("Rogue")
             .click("link text","7")
             .pause(200)

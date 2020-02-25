@@ -1,15 +1,61 @@
-21:12:39.021 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
-21:12:39.066 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
-2020-02-23 21:12:39.099:INFO::main: Logging initialized @211ms to org.seleniumhq.jetty9.util.log.StdErrLog
-21:12:39.242 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
-21:12:39.308 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
-21:12:39.547 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+17:18:40.834 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+17:18:40.881 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-02-24 17:18:40.916:INFO::main: Logging initialized @225ms to org.seleniumhq.jetty9.util.log.StdErrLog
+17:18:41.067 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+17:18:41.130 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+17:18:41.541 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "acceptSslCerts": true,
   "browserName": "safari",
   "javascriptEnabled": true,
   "name": "Hearth Tests"
 }
-21:12:39.548 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.safari.SafariDriverService)
-21:12:40.368 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-21:12:40.390 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session A0970772-688B-41C0-945A-20950D934C26 (org.openqa.selenium.safari.SafariDriverService)
-21:13:02.274 INFO [ActiveSessions$1.onStop] - Removing session A0970772-688B-41C0-945A-20950D934C26 (org.openqa.selenium.safari.SafariDriverService)
+17:18:41.541 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "javascriptEnabled": true,
+  "marionette": true,
+  "name": "Hearth Tests"
+}
+17:18:41.543 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+17:18:41.543 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.safari.SafariDriverService)
+1582593521708	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0z/r2j1r2t13fndp4532s63w1wr0000gn/T/rust_mozprofileSKGDwk"
+1582593522087	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582593522272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582593522272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582593522272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582593522272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+17:18:42.605 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+17:18:42.629 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session C88A8114-C5BE-4D7D-802E-3EE54ED87E2E (org.openqa.selenium.safari.SafariDriverService)
+1582593524192	Marionette	INFO	Listening on port 62018
+17:18:44.326 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+17:18:44.332 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 47536533-043f-694a-a88b-237b74b7fa89 (org.openqa.selenium.firefox.GeckoDriverService)
+JavaScript error: http://localhost:3000/api/v1/class/Warrior?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Warrior?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Warrior?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Warrior?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Warrior?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Warrior?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Mage?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Mage?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Mage?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Mage?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Mage?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Mage?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Mage?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1&cost=7, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1&cost=7, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+JavaScript error: http://localhost:3000/api/v1/class/Rogue?pageNum=1, line 23: TypeError: image.parentElement.nextElementSibling is null
+17:18:56.548 INFO [ActiveSessions$1.onStop] - Removing session C88A8114-C5BE-4D7D-802E-3EE54ED87E2E (org.openqa.selenium.safari.SafariDriverService)
+1582593536880	Marionette	INFO	Stopped listening on port 62018
+17:18:59.370 INFO [ActiveSessions$1.onStop] - Removing session 47536533-043f-694a-a88b-237b74b7fa89 (org.openqa.selenium.firefox.GeckoDriverService)

@@ -7,8 +7,7 @@ module.exports = {
         "log_path": "logs",
         "port": 4444,
         "cli_args": {
-            "webdriver.chrome.driver": "./node_modules/.bin/chromedriver",
-            "webdriver.gecko.driver": "./node_modules/.bin/geckodriver",
+            "webdriver.gecko.driver": require('geckodriver').path,
             "webdriver.safari.driver": "/usr/bin/safaridriver"
         }
     },
@@ -36,27 +35,7 @@ module.exports = {
             },
             "globals": {
                 "type": "firefox",
-                "user": "me1",
-                "pass": "test"
-            }
-        },
-
-        "chrome": {
-            "desiredCapabilities": {
-                "browserName": "chrome",
-                "chromeOptions": {
-                    "args": [
-                        "disable-web-security",
-                        "use-fake-device-for-media-stream",
-                        "use-fake-ui-for-media-stream"
-                    ]
-                },
-                "acceptSslCerts": true,
-                "javascriptEnabled": true
-            },
-            "globals": {
-                "type": "chrome",
-                "user": "me1",
+                "user": "Yang",
                 "pass": "test"
             }
         },
@@ -69,7 +48,7 @@ module.exports = {
             },
             "globals": {
                 "type": "safari",
-                "user": "me3",
+                "user": "Yang",
                 "pass": "test"
             }
         }

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="hearthTests"
+    errors="1" failures="0" hostname="" id="" package="hearthTests" skipped="9"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+      [0;31m  Error: An error occurred while retrieving a new session: &#34;session not created: This version of ChromeDriver only supports Chrome version 81&#34;[0m
+[0;90m       at endReadableNT (_stream_readable.js:1201:12)
+       at processTicksAndRejections (internal/process/task_queues.js:84:21)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Before" classname="hearthTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="testForClass" classname="hearthTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="testForRarity" classname="hearthTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="testForSingleCard" classname="hearthTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="testForCardback" classname="hearthTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="testForSingleCardBack" classname="hearthTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="testForNavbar" classname="hearthTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="testForFilter" classname="hearthTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="After" classname="hearthTests">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
